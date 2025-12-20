@@ -159,10 +159,17 @@ h5 {
     display: block;
     width: 25px;
     height: 2px;
-    width: 25px;
-    height: 2px;
     background-color: currentColor;
     transition: 0.3s;
+}
+
+/* Mobile menu toggle animation */
+.hamburger.active span:first-child {
+    transform: rotate(45deg) translate(8px, 8px);
+}
+
+.hamburger.active span:last-child {
+    transform: rotate(-45deg) translate(7px, -7px);
 }
 
 /* Hero Section */
