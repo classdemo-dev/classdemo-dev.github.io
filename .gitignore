@@ -1,0 +1,8 @@
+# 원본 이미지 폴더 제외
+image/
+assets/
+
+# 기타 제외 파일
+*.log
+.DS_Store
+Thumbs.db
