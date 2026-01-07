@@ -93,6 +93,21 @@ h5 {
     font-size: 1.5rem;
     letter-spacing: -0.02em;
     color: currentColor;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo-icon {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+    transition: filter 0.3s ease;
+}
+
+.navbar.scrolled .logo-icon {
+    filter: brightness(0) invert(0);
 }
 
 .nav-links {
