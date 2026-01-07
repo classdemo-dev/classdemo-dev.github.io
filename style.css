@@ -391,9 +391,33 @@ h5 {
 
 .card-info .desc {
     color: #666;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.8rem;
     font-size: 0.95rem;
 }
+
+.card-info .price {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.card-info .price .original {
+    color: #999;
+    text-decoration: line-through;
+    font-size: 0.9rem;
+    margin-right: 0.5rem;
+}
+
+.card-info .price strong {
+    color: var(--accent-color);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.badge.event {
+    background-color: #ea580c;
+    color: var(--white);
+}
+
 
 /* Marquee */
 .marquee-strip {
