@@ -99,15 +99,9 @@ h5 {
 }
 
 .logo-icon {
-    width: 28px;
-    height: 28px;
-    object-fit: contain;
-    filter: brightness(0) invert(1);
-    transition: filter 0.3s ease;
-}
-
-.navbar.scrolled .logo-icon {
-    filter: brightness(0) invert(0);
+    width: 24px;
+    height: 24px;
+    color: currentColor;
 }
 
 .nav-links {
